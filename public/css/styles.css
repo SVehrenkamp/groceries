@@ -1,0 +1,36 @@
+body {
+  background-color: #ffffff;
+}
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#foods {
+  text-align: center;
+}
+#foods ul {
+  padding: 0;
+  margin: 2rem 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+#foods li {
+  width: 120px;
+  height: 120px;
+}
+#title {
+  font-size: 3rem;
+  margin: 2rem 0 0 0;
+}
+#valid {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
